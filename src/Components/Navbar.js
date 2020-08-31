@@ -13,12 +13,12 @@ class Navbar extends Component {
         return (
             <Router>
                 <NavbarCollapse>
-                    <NavLink to="/">Домашняя страница</NavLink>
+                    <NavLink to="/main">Домашняя страница</NavLink>
                     <NavLink to="/gallery">Галерея</NavLink>
                     <NavLink to="/shop">Магазин</NavLink>
                 </NavbarCollapse>
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/main" component={Home} />
                     <Route exact path="/gallery" component={Gallery} />
                     <Route exact path="/shop" component={Shop} />
                 </Switch>

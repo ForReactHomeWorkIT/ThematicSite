@@ -1,3 +1,3 @@
-h1,h2,h3{text-align:center}p{text-align:justify}
+html{margin:0;padding:0}body{-webkit-box-sizing:border-box;box-sizing:border-box}h2,h3{text-align:center}h1{text-align:right}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit;margin:0;padding:0}.navbar-collapse{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:left;-ms-flex-pack:left;justify-content:left;gap:2em;padding:50px;height:15vh;background-color:#442d25}.navbar-collapse a{font:20pt "Arial Black";font-weight:900;text-transform:uppercase;text-decoration:none;color:#000;letter-spacing:4px}.navbar-collapse a:hover{color:#faed27}.navbar-collapse a.active{color:#faed27}.Header{background-color:#442d25;height:15vh;padding:2em 10%}.Footer{background-color:#442d25;height:15vh;padding:2em 10%}.container .list-unstyled{padding:20px 10%;list-style:none}.container .list-unstyled .media-body{width:40%}
 
 /*# sourceMappingURL=App.css.map */

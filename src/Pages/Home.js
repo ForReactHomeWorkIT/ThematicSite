@@ -1,248 +1,279 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import '../App.css';
-import Media from "react-bootstrap/Media";
 import img1 from '../assets/img1.jpg';
 import {Col, Container, Row} from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.css';
+import Media from "react-bootstrap/Media";
 
 
 class Home extends Component {
     render() {
         return (
-            <Container>
-                <Row xs={2} md={4} lg={6}>
-                    <Col className="list-unstyled">
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
+            <Container fluid>
+                <Row>
+                    <Col sm={12} md={6} lg={4} xl={4}>
+                        <ul className="list-unstyled">
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                        </ul>
                     </Col>
-                    <ul className="list-unstyled">
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-                    </ul>
-                </Row>
-                <Row xs={2} md={4} lg={6}>
-                    <Col className="list-unstyled">
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
+                    <Col sm={12} md={6} lg={4} xl={4}>
+                        <ul className="list-unstyled">
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                        </ul>
                     </Col>
-                    <Col className="list-unstyled">
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
-
-                        <Media as="li">
-                            <img
-                                width={64}
-                                height={64}
-                                className="mr-3"
-                                src={img1}
-                                alt="Generic placeholder"
-                            />
-                            <Media.Body>
-                                <h5>List-based media object</h5>
-                                <p>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                                    fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                            </Media.Body>
-                        </Media>
+                    <Col sm={12} md={6} lg={4} xl={4}>
+                        <ul className="list-unstyled">
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                            <Media as="li">
+                                <img
+                                    width={128}
+                                    height={128}
+                                    className="mr-3"
+                                    src={img1}
+                                    alt="img"
+                                />
+                                <Media.Body>
+                                    <h5>Cofee-breake</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt
+                                        exercitationem in nihil quae. Animi dolor nihil optio sunt voluptate.</p>
+                                </Media.Body>
+                            </Media>
+                        </ul>
                     </Col>
                 </Row>
             </Container>

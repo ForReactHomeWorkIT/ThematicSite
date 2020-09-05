@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="Footer">
-                <h3>Copyrught &copy; Homework</h3>
+                <h3>Copyright &copy; Homework</h3>
             </div>
         )
     }

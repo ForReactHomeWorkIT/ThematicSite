@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header';
-import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Navigation from "./Components/Navbar";
 
 
 export default class App extends Component {
@@ -10,7 +10,7 @@ export default class App extends Component {
         return (
             <div className="App">
                 <Header />
-                <Navbar />
+                <Navigation />
                 <Footer />
             </div>
         )
